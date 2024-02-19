@@ -1,0 +1,24 @@
+{
+  "name": "sfsx-trading-book-visualization",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+    "scripts": {
+    "start": "ts-node src/app.ts",
+    "dev": "nodemon src/app.ts"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.16",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/pg": "^8.11.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "joi": "^17.12.1",
+    "pg": "^8.11.3"
+  }
+}
